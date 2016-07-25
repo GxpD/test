@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".activity.MainActivity">
+
+    <com.skydragon.gplay.gplayapp.ui.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff9900"
+        tl:centerText="68游戏社区"
+        tl:centerTextSize="20sp"
+        tl:isShowRight="true" />
+
+    <FrameLayout
+        android:id="@+id/fragment_change"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></FrameLayout>
+
+    <com.skydragon.gplay.gplayapp.ui.CommonTabLayout
+        android:id="@+id/tl_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="2dp"
+        tl:tl_iconGravity="TOP"
+        tl:tl_iconHeight="20dp"
+        tl:tl_iconMargin="1dp"
+        tl:tl_iconWidth="26dp"
+        tl:tl_indicator_bounce_enable="false"
+        tl:tl_indicator_color="#00000000"
+        tl:tl_indicator_gravity="TOP"
+        tl:tl_textSelectColor="#ff9900"
+        tl:tl_textUnselectColor="#66000000"
+        tl:tl_textsize="17sp"
+        tl:tl_underline_color="#DDDDDD"
+        tl:tl_underline_gravity="TOP"
+        tl:tl_underline_height="1dp" />
+
+</LinearLayout>
+
